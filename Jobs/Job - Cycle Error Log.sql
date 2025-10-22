@@ -5,6 +5,13 @@ GO
 EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'Software\Microsoft\MSSQLServer\MSSQLServer', N'NumErrorLogs', REG_DWORD, 30
 GO
 
+/*
+Sql no linux: sudo /opt/mssql/bin/mssql-conf set errorlog.numerrorlogs 30
+*/
+
+
+
+
 USE [msdb]
 GO
 
