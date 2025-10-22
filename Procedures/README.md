@@ -1,5 +1,4 @@
-# mssql-server
-## Procedures
+# Procedures
 
 - **sp_createlogin**: procedure para criação de login utilizando senha de complexidade alta retornando o script de criação com o SID
     - @login_name: (obrigatório)
@@ -17,3 +16,5 @@
         - Login: nome_usuario
         - Password: 5YmEg^fANF{xu=(jy3It
         - Script_Create: create login \[nome_usuario\] with password = 0x030096C197B6E9908B15751AD470109357311AF026E60A5E3E032047DE9A97AFA9B99A4D14AE63F987A182748005392CF633B320CAFD6E463A228B24D55219A9C51F60D945CE hashed, sid = 0x1BF996A6B32DC14695BCD8CAED5532D3, default_database=\[master\], check_expiration=off, check_policy=on
+
+* * *
