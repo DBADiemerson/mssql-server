@@ -10,8 +10,6 @@ Sql no linux: sudo /opt/mssql/bin/mssql-conf set errorlog.numerrorlogs 30
 */
 
 
-
-
 USE [msdb]
 GO
 
